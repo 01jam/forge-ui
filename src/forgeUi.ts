@@ -72,7 +72,7 @@ const init = () => {
 
 		// Update package.json file name
 		const projectPackageJson = getPackageJsonInfo(
-			path.join(__dirname, "..", `package.json`)
+			path.join(projectPath, "package.json")
 		);
 		projectPackageJson.name = projectName;
 		execSync(`npx rimraf ${path.join(projectPath, "package.json")}`);
