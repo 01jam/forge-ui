@@ -1,6 +1,5 @@
 import fs from "fs";
+import { PackageJSON } from "../forgeUi";
 
-export default (path: string) =>
-	JSON.parse(
-		fs.readFileSync(path, "utf-8") // Be careful when moving this
-	);
+export default (path: string): PackageJSON =>
+	JSON.parse(fs.readFileSync(path, "utf-8"));

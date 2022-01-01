@@ -11,7 +11,7 @@ if (major < 14) {
 		"You are running Node " +
 			currentNodeVersion +
 			".\n" +
-			"Forge UI requires Node 14 or higher. \n" +
+			"This forge requires Node 14 or higher. \n" +
 			"Please update your version of Node."
 	);
 	process.exit(1);
