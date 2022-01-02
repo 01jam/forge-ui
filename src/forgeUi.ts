@@ -132,7 +132,7 @@ const init = () => {
 
 		// Clean cloned source folder
 		console.log("Removing useless files");
-		execSync(`npx rimraf ${path.join(options.project.path, ".git")}`);
+		execSync(`npx rimraf "${path.join(options.project.path, ".git")}"`);
 
 		// Copy cloned source package JSON
 		options.project.packageJSON = getPackageJsonInfo(
