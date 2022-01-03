@@ -1,3 +1,5 @@
+[![Twitch Status](https://img.shields.io/twitch/status/01jam?style=social)](https://www.twitch.tv/01jam)
+
 # forge-ui
 
 This repository contains the source files of the npm package [@01jam/forge-ui](https://www.npmjs.com/package/@01jam/forge-ui).
